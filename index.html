@@ -4,35 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Corry's Theebellen & andere sieranden</title>
     </head>
     
 <body>
-    <header>
-    <h1 class="ch-header"></h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <a class="navbar-brand" href="#">Corry's Sieraden</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#front">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#theebellen">Theebellen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ketting">Kettingen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#kralen">Kralen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#overige">Overige</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <header class="row" id="front">
+    <div class="col-12"><h1 class="ch-header">Corry's Sieraden</h1></div>
     </header>
-    <main class="ch-front">
-    
+    <main class="ch-front ch-section row">
+<div class="jumbotron col-12">
+  <h1 class="display-4">Welkom bij Corry's online Sieraden winkel</h1>
+  <p class="lead">Altijd al een origineel en duurzaam sieraad willen hebben of geven?</p>
+  <hr class="my-4">
+  <p>Corry maakt vanuit natuurlijke materialen (zoals Zilver) allerlei sieraden zoals bijvoorbeeld de theebellen!</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Vertel meer</a>
+</div>    
     </main>
 
-    <section class="ch-theebellen">
-    <h2 class="ch-theebellen-header">Theebellen</h2>
+    <section class="ch-theebellen ch-section row" id="theebellen">
+    <div class="col-12">
+    <h2 class="ch-theebellen-header">Theebellen</h2></div>
+<div class="card-columns">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title that wraps to a new line</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card p-3">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+      <footer class="blockquote-footer text-white">
+        <small>
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+  </div>
+  <div class="card p-3 text-right">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+    
     </section>
 
-    <section class="ch-ketting">
+    <section class="ch-ketting" id="ketting">
     <h2 class="ch-ketting">Kettingen / Coilliers</h2>
     </section>
 
 
-    <section class="ch-kralen">
+    <section class="ch-kralen" id="kralen">
     <h2 class="ch-kralen-header">Kralen (Oorbellen & Armbanden)</h2>
     </section>
 
 
-    <section class="ch-overige">
+    <section class="ch-overige" id="overige">
     <h2 class="ch-overige-header">Overige Sieraden</h2>
     </section>
 
@@ -40,8 +149,11 @@
     <p class="mr-auto">Website is under construction , design and code by Jos Velema</p>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     </body>
     </html>
     

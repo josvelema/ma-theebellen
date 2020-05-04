@@ -1,1 +1,50 @@
-hoi
+header h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 15px;
+    font-size: 4rem;
+}
+
+.navbar {
+    min-height: 4em;
+}
+
+.ch-section {
+    width: 100%;
+    margin: auto;
+    padding-top: 3em;
+    min-height: 600px;
+}
+
+.ch-header {
+
+}
+
+
+.ch-front {
+ height: 100vh;
+
+}
+
+.ch-theebellen {
+height: 100vh;
+overflow: auto;
+display: flex;
+}
+
+.ch-ketting {
+
+
+}
+
+.ch-kralen {
+
+
+}
+
+.ch-overige {
+
+}
